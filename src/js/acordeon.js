@@ -2,7 +2,7 @@ const perguntas = document.querySelectorAll(".perguntas")
 const respostas = document.querySelectorAll(".resposta")
 const setas = document.querySelectorAll(".seta")
 let perguntaAtual = ''
-console.log(setas)
+
 perguntas[0].addEventListener("click", function () {
     perguntaAtual = 0
 
@@ -33,7 +33,6 @@ perguntas[1].addEventListener("click", function () {
         setas[0].classList.add("seta-fechada")
         setas[2].classList.add("seta-fechada")
     }
-
     mostrarOuEsconderResposta()
     acendarOuApagarSeta()
 })
@@ -51,7 +50,6 @@ perguntas[2].addEventListener("click", function () {
         setas[0].classList.add("seta-fechada")
         setas[1].classList.add("seta-fechada")
     }
-
     mostrarOuEsconderResposta()
     acendarOuApagarSeta()
 })
