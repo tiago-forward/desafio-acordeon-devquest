@@ -1,5 +1,5 @@
 body {
-    background-color: #E5E5E5;
+    background-color: #6E5849;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -7,7 +7,7 @@ body {
 }
 
 .card-container {
-    background-color: #FCFCFC;
+    background-color: #949293;
     position: relative;
     width: 650px;
     height: 347px;
@@ -21,6 +21,10 @@ body {
 .card-container .imagem-container {
     position: absolute;
     left: -90px;
+}
+
+.card-container .imagem-container img {
+    border-radius: 50%;
 }
 
 .card-container .conteudo-container {
@@ -52,21 +56,22 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.card-container .conteudo-container .perguntas .pergunta,
-.card-container .conteudo-container .perguntas .pergunta,
-.card-container .conteudo-container .perguntas .pergunta {
+.card-container .conteudo-container .perguntas .pergunta a {
+    color: #1F2533;
     font-size: 1.7rem;
     font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 1.5rem;
+    width: 100%;
 }
 
 .card-container .conteudo-container .perguntas .resposta {
     font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
+    text-indent: 10px;
 }
 
 .resp-fechado {
