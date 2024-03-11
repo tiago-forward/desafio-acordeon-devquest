@@ -1,0 +1,29 @@
+@media (max-width: 700px) {
+    .card-container {
+        flex-direction: column;
+        height: 580px;
+        width: 340px;
+    }
+    
+    .card-container .imagem-container {
+        position: relative;
+        left: 0;
+    }
+
+    .card-container .conteudo-container {
+        margin: 0;
+        width: 300px;
+    }
+
+    .card-container .conteudo-container .titulo {
+        font-size: 20px;
+    }
+
+    .card-container .conteudo-container .perguntas {
+        width: 300px;
+    }
+
+    .card-container .conteudo-container .perguntas .resposta {
+        font-size: 1.3rem;
+    }
+}

@@ -21,7 +21,7 @@ Estou muito feliz por ter chegado até aqui, consegui resolver esse desafio em p
 
 ## Status
 
-Concluído apenas para Desktops! 👌
+Concluído! 👌
 
 ## Desafio
 
